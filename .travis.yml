@@ -1,4 +1,4 @@
-dist: trusty
+dist: bionic
 
 language:
   - cpp
@@ -8,7 +8,7 @@ before_install:
 
 addons:
   sonarcloud:
-    organization: "nikonp"
+    organization: "sudecy99-1"
     token: $SONAR_TOKEN
 
 script:
